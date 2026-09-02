@@ -1,0 +1,245 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "Greetings",
+        "Howdy",
+        "Hello there",
+        "Hi assistant",
+        "Hey",
+        "What's up",
+        "Hello assistant"
+      ],
+      "responses": [
+        "Hello! Welcome to the AI Registration Assistant. How can I help you today?",
+        "Hi there! I can help you with internship registration. Would you like to register?",
+        "Greetings! How can I assist you with the internship today?"
+      ]
+    },
+    {
+      "tag": "register",
+      "patterns": [
+        "I want to register",
+        "I want to apply",
+        "How can I register",
+        "I want to join the internship",
+        "Register me",
+        "I want to sign up",
+        "Sign me up for the internship",
+        "Please register me",
+        "I would like to register for the internship",
+        "How do I apply for the internship",
+        "Can I register for the internship",
+        "I am interested in registering",
+        "I want to enroll",
+        "Enroll me please",
+        "I want to participate in the internship"
+      ],
+      "responses": [
+        "Sure! I'll help you with the registration. What is your full name?"
+      ]
+    },
+    {
+      "tag": "internship_info",
+      "patterns": [
+  "What is this internship",
+  "Tell me about the internship",
+  "Tell me about this internship",
+  "What is the internship about",
+  "What is this internship about",
+  "Can you explain the internship",
+  "Give me information about the internship",
+  "Give me internship information",
+  "Tell me more about the internship",
+  "Tell me more about the program",
+  "What does the internship cover",
+  "What will I learn in the internship",
+  "What will I learn",
+  "What is the focus of the internship",
+  "What kind of internship is this",
+  "Describe the internship",
+  "Explain the internship",
+  "What topics are covered",
+  "What technologies will I learn",
+  "What skills will I learn",
+  "What is this program about",
+  "Can you explain this program",
+  "What is the purpose of this internship",
+  "What does this program offer",
+  "I want to know about the internship",
+  "I want more information about the internship",
+  "Tell me about the internship program",
+  "Give me details about this internship"
+],
+      "responses": [
+        "This is an AI and Data Science internship focused on practical learning through projects involving Python, NLP, Machine Learning and conversational AI.",
+        "The internship covers Python, Natural Language Processing, Machine Learning, and building conversational AI applications."
+      ]
+    },
+    {
+  "tag": "requirements",
+  "patterns": [
+    "What are the requirements",
+    "What are the requirements?",
+    "What do I need to register",
+    "What do I need for registration",
+    "What are the eligibility criteria",
+    "What is the eligibility for this internship",
+    "Am I eligible for the internship",
+    "Who can apply",
+    "Who can apply for this internship",
+    "What qualifications are required",
+    "What qualifications do I need",
+    "What skills are required",
+    "What skills are needed",
+    "What skills do I need",
+    "Do I need any experience",
+    "Is prior experience required",
+    "Do I need previous experience",
+    "Do I need programming experience",
+    "Is Python knowledge required",
+    "Do I need to know Python",
+    "What should I know before applying",
+    "What should I know before joining",
+    "Are there any prerequisites",
+    "What are the prerequisites",
+    "Any prerequisites for the internship",
+    "What do I need before applying",
+    "What are the basic requirements",
+    "Tell me the eligibility requirements",
+    "Can a student apply",
+    "Can students apply for this internship"
+  ],
+  "responses": [
+    "Basic Python knowledge and familiarity with machine learning or NLP concepts are helpful. No prior professional experience is required.",
+    "You should have basic Python knowledge. Familiarity with machine learning or NLP concepts is helpful but not mandatory."
+  ]
+},
+    {
+      "tag": "application_status",
+      "patterns": [
+        "Check my application status",
+        "What is my registration status",
+        "Status of my application",
+        "Am I registered",
+        "Is my registration confirmed",
+        "Check status",
+        "Application status please",
+        "Where is my application",
+        "Tell me my status",
+        "Has my registration been completed"
+      ],
+      "responses": [
+        "Let me check your application status."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help me",
+        "What can you do",
+        "How do you work",
+        "What are your features",
+        "Help me please",
+        "I am confused",
+        "I don't know what to do",
+        "What should I do",
+        "Assist me",
+        "Guide me"
+      ],
+      "responses": [
+        "I can help you with: registering for the internship, internship details, requirements, and checking your application status. Just tell me what you need!",
+        "Sure! I can help you register, share internship details, explain requirements, or check your application status. What would you like to do?"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "Thanks a lot",
+        "I appreciate it",
+        "Great thanks",
+        "Many thanks",
+        "Thank you for your help",
+        "That's helpful thanks",
+        "Thanks assistant"
+      ],
+      "responses": [
+        "You're welcome! Is there anything else I can help you with?",
+        "Happy to help! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "I'm leaving",
+        "Talk to you later",
+        "Have a good day",
+        "Catch you later",
+        "Bye bye",
+        "See ya",
+        "I'm done"
+      ],
+      "responses": [
+        "Goodbye! Best of luck with your internship. Feel free to come back anytime!",
+        "See you later! Don't hesitate to return if you need help with registration."
+      ]
+    },
+    {
+      "tag": "confirmation_yes",
+      "patterns": [
+        "Yes",
+        "Yes confirm",
+        "Confirm",
+        "That's correct",
+        "Correct",
+        "Yes please",
+        "Yeah",
+        "Sure",
+        "Yes I confirm",
+        "Confirm my registration",
+        "Yes go ahead",
+        "Yes save it",
+        "Looks good",
+        "Yes that's right"
+      ],
+      "responses": [
+        "Confirmed!"
+      ]
+    },
+    {
+      "tag": "confirmation_no",
+      "patterns": [
+        "No",
+        "No cancel",
+        "Cancel",
+        "That's wrong",
+        "No don't save",
+        "No thanks",
+        "Nope",
+        "I made a mistake",
+        "That is not correct",
+        "No I want to change",
+        "No do not confirm",
+        "Let me change something"
+      ],
+      "responses": [
+        "No problem, let's fix that."
+      ]
+    }
+  ]
+}
